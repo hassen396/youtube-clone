@@ -1,0 +1,44 @@
+@media screen and (max-width: 426px){
+    .nav-bar{
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    height: 72px;
+    }   
+    
+    
+}
+
+
+.nav-bar {
+    position: fixed;
+    top:72px;
+    left: 0;
+   bottom:  0;
+    background-color: white;
+    width: 72px;
+    align-items: center;
+    
+}
+.side-bar-link {
+    width: 72px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.side-bar-link img {
+    width: 24px;
+    height: 24px;
+}
+
+.side-bar-link div {
+    font-size: 10px;
+  
+}
+
+

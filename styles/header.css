@@ -1,0 +1,113 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 72px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.left {
+    display: flex;
+    align-items: center;
+    width: 200px;
+  
+}
+
+.h-b {
+    margin-left: 15px;
+    width: 30px;
+}
+
+.yt-logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.middle {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    margin-left: 60px;
+}
+
+.input {
+   max-width: 358px;
+    flex: 1;
+    height: 40px;
+    box-sizing: border-box;
+    border:1px solid gray;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    width:0;
+    font-size: 16px;
+    padding-left: 12px;
+    font-family: Roboto;;
+}
+#inp:focus {
+    border:1px solid blue;
+}
+
+.search-btn {
+    border-bottom-right-radius: 3;
+    border-top-right-radius: 3;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border:1px solid gray;
+    width:70px;
+    height:40px;
+    margin-left: -1px;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    width: 24px;
+   
+}
+.v-search-btn {
+    border: none;
+    background-color: rgb(230, 233, 235);
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    
+}
+.v-search-icon {
+    width: 24px;
+    height: 24px;
+   
+}
+.right {
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 182px;
+    margin-left: 29px;
+}
+.upload-icon {
+    width:24px;
+    height: 24;
+}
+
+.yt-apps-icon {
+    width: 24px;
+    height: 24;
+}
+.notifications-icon {
+    width: 24px;
+    height: 24;
+}
+
+.channel-image {
+    width: 32px;
+    height: 32;
+    
+}
